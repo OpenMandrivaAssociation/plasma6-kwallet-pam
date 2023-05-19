@@ -17,6 +17,9 @@ Group: System/Libraries
 Patch0: pam_kwallet_init-use-unidirectional-mode-for-socat-v2.patch
 BuildRequires: cmake(ECM)
 BuildRequires: cmake(KF6Wallet)
+BuildRequires: cmake(Qt6)
+BuildRequires: cmake(Qt6Core)
+BuildRequires: cmake(KF6Wallet)
 BuildRequires: pam-devel
 BuildRequires: pkgconfig(libgcrypt)
 BuildRequires: socat
