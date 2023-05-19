@@ -19,6 +19,8 @@ BuildRequires: cmake(ECM)
 BuildRequires: cmake(KF6Wallet)
 BuildRequires: cmake(Qt6)
 BuildRequires: cmake(Qt6Core)
+BuildRequires: cmake(Qt6Gui)
+BuildRequires: cmake(Qt6DBus)
 BuildRequires: cmake(KF6Wallet)
 BuildRequires: pam-devel
 BuildRequires: pkgconfig(libgcrypt)
