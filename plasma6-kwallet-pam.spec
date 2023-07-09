@@ -25,6 +25,8 @@ BuildRequires: cmake(KF6Wallet)
 BuildRequires: pam-devel
 BuildRequires: pkgconfig(libgcrypt)
 BuildRequires: socat
+# Just to avoid pulling in KF5
+BuildRequires: plasma6-xdg-desktop-portal-kde
 Requires: socat
 Requires: kf6-kwallet
 
