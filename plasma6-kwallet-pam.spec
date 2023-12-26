@@ -25,6 +25,7 @@ BuildRequires: cmake(KF6Wallet)
 BuildRequires: pam-devel
 BuildRequires: pkgconfig(libgcrypt)
 BuildRequires: socat
+BuildRequires: gettext
 Requires: socat
 Requires: kf6-kwallet
 
