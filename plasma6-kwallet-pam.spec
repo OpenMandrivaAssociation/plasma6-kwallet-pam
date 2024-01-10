@@ -3,7 +3,7 @@
 #define git 20231103
 
 Name: plasma6-kwallet-pam
-Version: 5.91.0
+Version: 5.92.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/plasma/kwallet-pam/-/archive/master/kwallet-pam-master.tar.bz2#/kwallet-pam-%{git}.tar.bz2
