@@ -6,7 +6,7 @@
 
 Name: plasma6-kwallet-pam
 Version: 6.0.2
-Release: %{?git:0.%{git}.}1
+Release: %{?git:0.%{git}.}2
 %if 0%{?git:1}
 Source0: https://invent.kde.org/plasma/kwallet-pam/-/archive/%{gitbranch}/kwallet-pam-%{gitbranchd}.tar.bz2#/kwallet-pam-%{git}.tar.bz2
 %else
