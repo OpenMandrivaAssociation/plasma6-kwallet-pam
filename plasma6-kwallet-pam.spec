@@ -13,7 +13,7 @@ Source0: https://invent.kde.org/plasma/kwallet-pam/-/archive/%{gitbranch}/kwalle
 Source0: http://download.kde.org/%{stable}/plasma/%{plasmaver}/kwallet-pam-%{version}.tar.xz
 %endif
 Summary: PAM support for Kwallet
-URL: http://kde.org/
+URL: https://kde.org/
 License: GPL
 Group: System/Libraries
 Patch0: pam_kwallet_init-use-unidirectional-mode-for-socat-v2.patch
