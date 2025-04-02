@@ -5,8 +5,8 @@
 %define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
 
 Name: plasma6-kwallet-pam
-Version: 6.3.3
-Release: %{?git:0.%{git}.}2
+Version: 6.3.4
+Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/plasma/kwallet-pam/-/archive/%{gitbranch}/kwallet-pam-%{gitbranchd}.tar.bz2#/kwallet-pam-%{git}.tar.bz2
 %else
